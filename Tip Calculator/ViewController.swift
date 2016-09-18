@@ -75,6 +75,8 @@ class ViewController: UIViewController {
                 self.firstView.center = super.view.center
                 self.secondView.alpha = 0
                 self.tipControl.alpha = 0
+                self.billField.frame = CGRect(x: 20, y: 46, width: 280, height: 87)
+
             })
         }
         
